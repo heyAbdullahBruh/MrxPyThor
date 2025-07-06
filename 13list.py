@@ -40,13 +40,36 @@ print(student) # ['Salam', 'Balam', 'Kalam', 'Jalam', 'Samal', 'Kamal', 'Jamal',
 student.insert(3,"Pamal") # insert a item in specific index in list 
 print(student) #['Salam', 'Balam', 'Kalam', 'Pamal', 'Jalam', 'Samal', 'Kamal', 'Jamal', 'Bamal', 'Namal']
 
-
-'''
-
 # 13)--->
+student.remove("Pamal") # remove items from list
+print(student) #['Salam', 'Balam', 'Kalam', 'Jalam', 'Samal', 'Kamal', 'Jamal', 'Bamal', 'Namal']
+
+# 14)--->
 student.sort() # sort list
 print(student) #['Balam', 'Bamal', 'Jalam', 'Jamal', 'Kalam', 'Kamal', 'Salam', 'Samal']
 
-# 13)--->
-student.remove("Bamal") # remove items from list
-print(student) #['Salam', 'Balam', 'Kalam', 'Jalam', 'Samal', 'Kamal', 'Jamal', 'Bamal', 'Namal']
+number = [7,2,5,0,3,4,1,6]
+number.sort()
+print(number) #[0,1,2,3,4,5,6,7]
+
+# 15)--->
+student.pop() # CUT one items of value from last index of list 
+print(student) #['Balam', 'Bamal', 'Jalam', 'Jamal', 'Kalam', 'Kamal', 'Salam']
+
+# 16)--->
+student2 = student.copy() # clear all of itmes from list
+print(student2) #['Balam', 'Bamal', 'Jalam', 'Jamal', 'Kalam', 'Kamal', 'Salam']
+
+# 17)--->
+print(student.index("Kalam")) #5 ; it's get item index number in list
+
+# 18)--->
+student.clear() # clear all of itmes from list
+print(student) #[]
+
+# 19)--->
+nums = [7,5,6,3,6,5,0,3,4,1,6]
+print(nums.count(6)) # 3 ; it's return how many time have similar item in list, like 6 have three time in list . That's why it's return 3
+
+'''
+
