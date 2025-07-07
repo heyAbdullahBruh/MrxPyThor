@@ -7,7 +7,8 @@ workers =(
 )
 
 print(workers) #('Shamim', 'Tamim', 'Bamim', 'Damim', 'Shakib', 'Thakib', 'Jhakib')
-print(workers[1]) #Tamim
+print(workers[1]) # Return from 1 index value --> ('Tamim', 'Bamim', 'Damim', 'Shakib', 'Thakib', 'Jhakib')
+print(workers[1:]) #Tamim
 
 # workers[3]='Namim' # ❌
 
