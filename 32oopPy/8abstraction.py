@@ -28,6 +28,8 @@ class Cat(Animal) :
         self.catagory =catagory
     def info (self):
         return self.name ,self.height,self.color,self.catagory
-    
+
+#  a = Animal()  ❌ Error: Can't instantiate abstract class
+
 cat1 = Cat('Birall','1 meter','Pink','Bink')
 print(cat1.info())#('Birall', '1 meter', 'Pink', 'Bink')
