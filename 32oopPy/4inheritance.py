@@ -1,5 +1,8 @@
 #Inheritance allows a class (child) to reuse code from another class (parent), enabling code reusability and extension of functionality...->
 
+
+#1-->
+
 class Worker :
     name = ''
     age=''
@@ -27,3 +30,25 @@ print(swEngr1.info())#('Sabedd', '25', 50000, 'Backend Dev')
 
 print(issubclass(SoftwareEng,Worker)) #True ; issubclass method check prarent's child class
 print(issubclass(Worker,SoftwareEng)) #False
+
+
+#2 --->
+
+class Animal : 
+    def __init__(self):
+        print('Animal is helpful for our Environment')
+        
+class Doggy(Animal) :
+        pass
+dog1 =Doggy() #Animal is helpful for our Environment
+
+class Catty(Animal) :
+     def __init__(self):
+        super().__init__()
+        print('Cat is helpful for our Nature')
+        
+cat1 =Catty() #--> 
+'''
+Animal is helpful for our Environment
+Cat is helpful for our Nature
+''' 
