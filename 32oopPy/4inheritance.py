@@ -1,4 +1,4 @@
-#Inheritance allows a class (child) to reuse code from another class (parent), enabling code reusability and extension of functionality.
+#Inheritance allows a class (child) to reuse code from another class (parent), enabling code reusability and extension of functionality...->
 
 class Worker :
     name = ''
