@@ -8,10 +8,13 @@ class Shape :
     def __init__(self,base,height):
         self.base=base
         self.height =height
-    
+    def calc() :
+        print(f"Calculate your shape ")
+        
+        
 class Tringle(Shape) :
     
-    def calc(self) :
+    def calc(self) : #Method overriding
         result =.5 * self.base * self.height
         print(f"The Tringle shape's area is = {result} ")
 
@@ -20,7 +23,7 @@ tringle1.calc() #The Tringle shape's area is = 400.0
 
 class Rectangle(Shape) :
     
-    def calc(self) :
+    def calc(self) :#Method overriding
         result = self.base * self.height
         print(f"The Rectangle shape's area is = {result} ")
         
