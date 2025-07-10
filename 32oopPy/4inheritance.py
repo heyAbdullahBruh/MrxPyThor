@@ -26,3 +26,4 @@ swEngr1 = SoftwareEng('Sabedd','25',50000,'Backend Dev')
 print(swEngr1.info())#('Sabedd', '25', 50000, 'Backend Dev')
 
 print(issubclass(SoftwareEng,Worker)) #True ; issubclass method check prarent's child class
+print(issubclass(Worker,SoftwareEng)) #False
