@@ -21,7 +21,7 @@ class SoftwareEng(Worker) : # Inherit "Worker" class in "SoftwareEng" class
     jobTile = ''
     
     def __init__(self, name, age, sallray,jobTitle):
-        super().__init__(name, age, sallray)
+        super().__init__(name, age, sallray) #Methode overriding
         self.jobTile = jobTitle
     def info(self):
        return self.name, self.age, self.sallray,self.jobTile
@@ -44,7 +44,7 @@ dog1 =Doggy() #Animal is helpful for our Environment
 
 class Catty(Animal) :
      def __init__(self):
-        super().__init__()
+        super().__init__()#Methode overriding
         print('Cat is helpful for our Nature')
         
 cat1 =Catty() #--> 
